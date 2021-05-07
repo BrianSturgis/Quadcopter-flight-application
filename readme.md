@@ -3,17 +3,19 @@
 
 
 ## Description
+This application can take control of a small DJI Tello quadcopter.  It issues commands via Node.js and the user interacts via a REACT front end.
 
 ## Software Used
-* React (with React Hooks!)
-* Styled Components for styling
-* Node.js and UDP4 sockets for communicating with drone
-* Socket.io WebSockets for sending data to/from the browser
-* Next.js for easy react setup
+* React 
+* CSS
+* Node.js and UDP4 sockets
+* Socket.io WebSockets 
+* Adobe Photo Shop
+* Adobe XD
 
 ## Hardware Used
 * [DJI Tello Drone](https://amzn.to/2SvzqON)
-* [Extra Batteries](https://amzn.to/2SyV70J) - it comes with one and I bought two extra. For continual development I'd say you only need two — one in the charger and one in the drone. For flying away from your house you definitely need at least 3 as they only last about 10-15 mins.
+* [Extra Batteries](https://amzn.to/2SyV70J)
 * [Fast Battery Charger with 4 slots](https://amzn.to/2SAWqwb)
 
 ## Using This Code
