@@ -3,11 +3,11 @@
 
 
 ## Description
-This application can take control of a small DJI Tello quadcopter.  It issues commands via Node.js and the user interacts via a REACT front end.
+This application can take control of a small DJI Tello quadcopter.  It issues commands via Node.js and the user interacts via a REACT front end.  The application is a capstone project for the the Epicodus full stack developer program finishing in the spring of 2021.  
 
 ## Software Used
-* React 
-* CSS
+* React.js
+* CSS/HTML
 * Node.js and UDP4 sockets
 * Socket.io WebSockets 
 * Adobe Photo Shop
@@ -30,6 +30,6 @@ This application can take control of a small DJI Tello quadcopter.  It issues co
 ### Backend
 1. cd `backend`
 1. `npm install`
-1. connect to drone via wifi
-1. `npm start`
+2. Go to your systems wifi settings and look for a network named "TELLO" on your aircraft it may be set to an OEM network at name at first.
+3. `npm start`
 
