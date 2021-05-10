@@ -18,5 +18,24 @@ function handleError(err) {
   }
 }
 
-drone.send('command', 0, 7, PORT, HOST,handleError);
-drone.send('battery?', 0, 8, PORT, HOST,handleError);
+
+const commands = ['command', 'battery?', 'takeoff', 'land'];
+// const commands = ['command', 'battery?'];
+// drone.send('command', 0, 7, PORT, HOST,handleError);
+// drone.send('battery?', 0, 8, PORT, HOST,handleError);
+let i = 0;
+
+async function go() {
+  const command = commands[i];
+  const delay = commandDelays[command];
+  console.log(`running command: ${command}`);
+  drone.send(command, 0, command.length, PORT, HOST, handleError);
+  await wait(delay);
+  i += 1;
+  if (i < commands.length) {
+    return go();
+  }
+  console.log('done!');
+}
+
+go();
