@@ -1,6 +1,4 @@
-
-
-// this is the time it takes per maneuver
+// this is the time it takes per maneuver and is a built in delay
 const commandDelays = {
   command: 500,
   takeoff: 6000,
