@@ -8,10 +8,18 @@ const commandDelays = require('./commandDelays');
 
 const PORT = 8889;
 const HOST = '192.168.10.1';
-
-
 const droneState = dgram.createSocket('udp4');
 droneState.bind(8890);
+
+function parseState(state) {
+  return state
+    .split(';')
+    .map(x => x.split(':'))
+    .reduce((data, [key, value]) => {
+      data[key] = value;
+      return data;
+    }, {});
+}
 
 drone.on('message', message => {
   console.log(`🤖 : ${message}`);
