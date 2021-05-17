@@ -64,7 +64,6 @@ io.on('connection', socket => {
   socket.emit('status', 'CONNECTED');
 });
 
-
 http.listen(6767, () => {
   console.log('Socket io server up and running');
 });
