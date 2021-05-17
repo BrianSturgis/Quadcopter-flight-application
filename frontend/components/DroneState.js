@@ -1,15 +1,15 @@
-import { useState, useEffect } from 'react';
-import socket from '../socket';
+// import { useState, useEffect } from 'react';
+// import socket from '../socket';
 
-const DroneState = () => {
-  const status = useSocket();
-  const droneState = useDroneState([]);
-  return (
-    <div>
-      <p> Status: </p>
+// const DroneState = () => {
+//   const status = useSocket();
+//   const droneState = useDroneState([]);
+//   return (
+//     <div>
+//       <p> Status: </p>
       
-    </div>
-  );
-};
+//     </div>
+//   );
+// };
 
-export default DroneState;
+// export default DroneState;
