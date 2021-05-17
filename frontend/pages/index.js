@@ -3,7 +3,7 @@ import Commands from '../components/Commands';
 
 const IndexPage = () => (
   <div>
-    <DroneState />
+		<h2>hello drone</h2>
     <Commands />
   </div>
 );
