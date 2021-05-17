@@ -31,7 +31,7 @@ const IndexPage = () => (
   <PageStyles>
     <GlobalStyle />
     <Commands />
-    {/* <DroneState /> */}
+    <DroneState />
   </PageStyles>
 );
 

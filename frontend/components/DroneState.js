@@ -38,13 +38,13 @@ const DroneState = () => {
   return (
     <DroneStateStyles>
       <p className="status">Status: {status}</p>
-      <Battery battery={droneState.bat} />
+      {/* <Battery battery={droneState.bat} />
       <Tilt
         pitch={droneState.pitch}
         roll={droneState.roll}
         yaw={droneState.yaw}
         height={droneState.h}
-      />
+      /> */}
     </DroneStateStyles>
   );
 };
