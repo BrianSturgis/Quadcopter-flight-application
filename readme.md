@@ -13,6 +13,7 @@ This application can take control of a small DJI Tello quadcopter allowing a use
 * Socket.io WebSockets
 * Adobe Photo Shop
 * Adobe XD
+* Wacom cintiq
 
 ## Hardware Used
 * [DJI Tello Drone](https://amzn.to/2SvzqON)
