@@ -8,6 +8,9 @@ const HOST = '192.168.10.1';
 const drone = dgram.createSocket('udp4');
 drone.bind(PORT);
 
+const droneState = dgram.createSocket('udp4');
+droneState.bind(8890);
+
 drone.on('message', message => {
   console.log(`🤖 : ${message}`);
   // io.sockets.emit('status', message.toString());
@@ -19,11 +22,6 @@ function handleError(err) {
     console.log(err);
   }
 }
-
-const droneState = dgram.createSocket('udp4');
-droneState.bind(8890);
-
-
 
 // const commands = ['command', 'battery?', 'takeoff', 'land'];
 const commands = ['command', 'battery?'];
@@ -48,12 +46,12 @@ async function go() {
 
 go();
 
-droneState.on('message',
-  throttle(state => {
-    const formattedState = parseState(state.toString());
-    io.sockets.emit('droneState', formattedState);
-  }, 100)
-);
+// droneState.on('message',
+//   throttle(state => {
+//     const formattedState = parseState(state.toString());
+//     io.sockets.emit('droneState', formattedState);
+//   }, 100)
+// );
 
 // io.on('connection', socket => {
 //   socket.on('command', command => {

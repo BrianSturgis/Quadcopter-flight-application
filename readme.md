@@ -4,7 +4,7 @@
 <p align="center">Project started on May 7th, 2021</p>
 
 ## Description
-This application can take control of a small DJI Tello quadcopter allowing a user to give it basic flight commands.  It issues those commands via Node.js and the user interacts with the aircraft via a REACT front end.  The application is a capstone project for the the Epicodus full stack developer program finishing in the spring of 2021.  Its purpose is to demonstrate skills learned during the course as well as be a portfolio piece.
+This application can take control of a small DJI Tello quadcopter allowing a user to give it basic flight commands.  It issues those commands via Node.js and the user interacts with the aircraft via a REACT front end.  The application is a capstone project for the the Epicodus full stack developer program finishing in the spring of 2021.  Its purpose is to demonstrate skills learned during the course as well as be a portfolio project.
 
 ## Software Used
 * React.js
@@ -13,7 +13,7 @@ This application can take control of a small DJI Tello quadcopter allowing a use
 * Socket.io WebSockets
 * Adobe Photo Shop
 * Adobe XD
-* Wacom cintiq
+* Wacom Cintiq
 
 ## Hardware Used
 * [DJI Tello Drone](https://amzn.to/2SvzqON)
