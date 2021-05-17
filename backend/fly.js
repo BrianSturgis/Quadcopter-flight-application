@@ -64,6 +64,14 @@ io.on('connection', socket => {
   socket.emit('status', 'CONNECTED');
 });
 
+droneState.on(
+  'message',
+  throttle(state => {
+    const formattedState = parseState(state.toString());
+    io.sockets.emit('dronestate', formattedState);
+  }, 100)
+);
+
 http.listen(6767, () => {
   console.log('Socket io server up and running');
 });

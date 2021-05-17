@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react';
+import socket from '../socket';
 
 const DroneState = () => {
   const status = useSocket();
