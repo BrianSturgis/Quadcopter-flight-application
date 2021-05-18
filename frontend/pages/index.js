@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
     color: white;
   }
   * {
-    font-family: 'Operator Mono', monospace;
+    font-family: 'impact', monospace;
     box-sizing: border-box;
   }
   h2 {
@@ -23,8 +23,9 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const PageStyles = styled.div`
-  max-width: 500px;
+  max-width: 570px;
   margin: 0 auto;
+	padding: 1.5%;
 `;
 
 const IndexPage = () => (

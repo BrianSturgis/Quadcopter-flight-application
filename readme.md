@@ -78,8 +78,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 - March 17th purchased the drone i decided to use as well as accessories for 1 hour.
 - March 23rd received the aircraft and its kit and spent 3-4 hours updating it and flying it to see what its limitations and best conditions for flight were.
 - April 16th began drawing wire frames for application and built a look book doc of UI ideas i liked and periodically went back the doc over the month
-- May 7th built a few variations of the component diagram in Photo Shop. 
-- May 14th 
+- May 7th built a few variations of the component diagram in Photo Shop.
+- May 14th
 - May 17th
 - May 18th
 ```

@@ -6,13 +6,13 @@ const CommandGrid = styled.div`
   grid-template-columns: 1fr 1.25fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   border: 1px solid black;
-  grid-gap: 3px;
+  grid-gap: 6px;
   button {
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
     border: 0;
     background: #fe2c70;
     border: 8px solid transparent;
-    color: white;
+    color: black;
     font-size: 1rem;
     position: relative;
     &:active {
@@ -52,7 +52,7 @@ const CommandGrid = styled.div`
   }
   .center {
     display: grid;
-    grid-gap: 3px;
+    grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
     button:last-child {
       grid-column: span 2;
