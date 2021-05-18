@@ -5,7 +5,6 @@ const CommandGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1.25fr 1fr;
   grid-template-rows: repeat(3, 1fr);
-	
   border: 1px solid black;
   grid-gap: 6px;
   button {
