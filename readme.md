@@ -18,7 +18,7 @@ This application can take control of a small DJI Tello quadcopter allowing a use
 - React Framework v17.0
 - npm
 - node.js
-- `create-react-app`
+- next js
 - webpack v5.11.1
 - Babel
 - ESLint
