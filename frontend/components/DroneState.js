@@ -12,7 +12,7 @@ function useDroneState() {
 }
 
 function useSocket() {
-  const [status, updateStatus] = useState('DISCONNECTED');
+  const [status, updateStatus] = useState('is 0');
   useEffect(() => {
     socket.on('status', updateStatus);
     return () => socket.removeListener('status');

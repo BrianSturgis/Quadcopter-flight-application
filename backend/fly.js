@@ -5,7 +5,6 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 const throttle = require('lodash/throttle');
 const commandDelays = require('./commandDelays');
-
 const PORT = 8889;
 const HOST = '192.168.10.1';
 const drone = dgram.createSocket('udp4');
@@ -36,7 +35,6 @@ function handleError(err) {
   }
 }
 
-// const commands = ['command', 'battery?', 'takeoff', 'land'];
 const commands = ['command', 'battery?'];
 
 let i = 0;
