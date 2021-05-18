@@ -46,7 +46,7 @@ const CommandGrid = styled.div`
     }
     span.symbol {
       display: block;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 400;
     }
   }
@@ -62,9 +62,9 @@ const CommandGrid = styled.div`
     grid-column: 1 / -1;
     background: #ffc600;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.9rem;
     color: black;
   }
 
