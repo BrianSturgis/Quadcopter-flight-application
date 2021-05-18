@@ -72,6 +72,18 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 3. Go to your systems wifi settings and look for a network named "TELLO" on your aircraft it may be set to an OEM network at name at first.
 4. `npm start`
 
+## Work Log
+```
+- 3-14 researched drones and coding on the internet via numerous websites and you tube videos for 2-3 hours.
+- 3-17 purchased the drone i decided to use as well as accessories for 1 hour.
+- 3-23 received the aircraft and its kit and spent 3-4 hours updating it and flying it to see what its limitations and best conditions for flight were.
+- April began drawing wireferames for application and built a look book doc of UI ideas i liked 
+
+
+
+
+```
+
 ### License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
