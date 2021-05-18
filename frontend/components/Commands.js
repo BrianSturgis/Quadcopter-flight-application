@@ -24,6 +24,7 @@ const CommandGrid = styled.div`
     }
     &.takeoff {
 			font-size: 1.5rem;
+			border: 4px solid #4CAF50; /* Green */
       background: #41c7ff;
     }
     &.land {

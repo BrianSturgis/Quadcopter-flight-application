@@ -65,7 +65,7 @@ io.on('connection', socket => {
     drone.send(command, 0, command.length, PORT, HOST, handleError);
   });
 
-  socket.emit('status', 'CONNECTED');
+  socket.emit('status', '(socket only)');
 });
 
 droneState.on(
@@ -77,5 +77,5 @@ droneState.on(
 );
 
 http.listen(6767, () => {
-  console.log('Socket io server up and running');
+  console.log('Socket is up and running');
 });
