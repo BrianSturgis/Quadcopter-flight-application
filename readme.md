@@ -74,11 +74,14 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Work Log
 ```
-- 3-14 researched drones and coding on the internet via numerous websites and you tube videos for 2-3 hours.
-- 3-17 purchased the drone i decided to use as well as accessories for 1 hour.
-- 3-23 received the aircraft and its kit and spent 3-4 hours updating it and flying it to see what its limitations and best conditions for flight were.
+- March 14th researched drones and coding on the internet via numerous websites and you tube videos for 2-3 hours.
+- March 17th purchased the drone i decided to use as well as accessories for 1 hour.
+- March 23rd received the aircraft and its kit and spent 3-4 hours updating it and flying it to see what its limitations and best conditions for flight were.
 - April 16th began drawing wire frames for application and built a look book doc of UI ideas i liked and periodically went back the doc over the month
-
+- May 7th built a few variations of the component diagram in Photo Shop. 
+- May 14th 
+- May 17th
+- May 18th
 ```
 
 ### License

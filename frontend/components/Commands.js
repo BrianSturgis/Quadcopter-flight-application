@@ -11,7 +11,7 @@ const CommandGrid = styled.div`
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
     border: 0;
     background: #fe2c70;
-    border: 4px solid transparent;
+    border: 8px solid transparent;
     color: white;
     font-size: 1rem;
     position: relative;
@@ -23,15 +23,16 @@ const CommandGrid = styled.div`
       border-color: #ffc600;
     }
     &.takeoff {
-			font-size: 2rem;
+			font-size: 1.5rem;
       background: #41c7ff;
     }
     &.land {
-			font-size: 2rem;
+			font-size: 1.5rem;
       background: #00ff00;
     }
     &.emergency {
-      background: orange;
+      background: red;
+			
       text-transform: uppercase;
       color: black;
     }
@@ -45,7 +46,7 @@ const CommandGrid = styled.div`
     }
     span.symbol {
       display: block;
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-weight: 400;
     }
   }
@@ -61,11 +62,12 @@ const CommandGrid = styled.div`
     grid-column: 1 / -1;
     background: #ffc600;
     margin: 0;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
     padding: 0.5rem;
     color: black;
   }
+
 `;
 
 function sendCommand(command) {
@@ -115,10 +117,10 @@ const Commands = () => (
       <span className="symbol">⤓ down</span> {amount}cm
     </button>
     <button onClick={sendCommand('flip l')}>Flip Left</button>
-    <button onClick={sendCommand('flip r')}>Flip Right</button>
-    <button onClick={sendCommand('flip b')}>Flip Back</button>
     <button onClick={sendCommand('flip f')}>Flip Forward</button>
+    <button onClick={sendCommand('flip r')}>Flip Right</button>
     <button onClick={sendCommand('go 25 25 25 25')}>Go 25 25 25 25</button>
+    <button onClick={sendCommand('flip b')}>Flip Back</button>
     <button onClick={sendCommand('curve 100 100 100 150 250 350 50')}>
       Curve!
     </button>
