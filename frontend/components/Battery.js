@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const BatteryStyles = styled.div``;
-
 const Battery = props => (
   <BatteryStyles level={props.battery}>
     <span className="batteryLevel">{props.battery}%</span>

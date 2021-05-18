@@ -5,16 +5,12 @@ const CommandGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1.25fr 1fr;
   grid-template-rows: repeat(3, 1fr);
-  border: 1px solid black;
-  grid-gap: 6px;
+  grid-gap: 9px;
   button {
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
-    border: 0;
-    // background: #fe2c70;
     border: 8px solid transparent;
-    color: black;
-    font-size: 1rem;
+    font-size: 1.6rem;
     position: relative;
+		border-radius: 9px;
     &:active {
       top: 2px;
     }
@@ -24,18 +20,17 @@ const CommandGrid = styled.div`
     }
     &.takeoff {
 			font-size: 1.5rem;
-			border: 4px solid #4CAF50; /* Green */
+			
       background: #41c7ff;
     }
     &.land {
 			font-size: 1.5rem;
-			border: 4px solid #4CAF50; /* Green */
+			
 			border-radius: 2px;
       // background: #00ff00;
     }
     &.emergency {
-      background: yellow;
-			
+      background: red;
       text-transform: uppercase;
       color: black;
     }
@@ -54,7 +49,6 @@ const CommandGrid = styled.div`
       font-weight: 400;
     }
   }
-	
 
   .center {
     display: grid;
@@ -64,17 +58,16 @@ const CommandGrid = styled.div`
       grid-column: span 2;
     }
   }
+
   h2 {
     grid-column: 1 / -1;
-    background: #ffc600;
+    // background: #ffc600;
     margin: 0;
     font-size: 1.2rem;
     text-align: center;
-    padding: 0.9rem;
+    padding: 2rem;
     color: black;
-  }
-
-`;
+  }`;
 
 function sendCommand(command) {
   return function() {

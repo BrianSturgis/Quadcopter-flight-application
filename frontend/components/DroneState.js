@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import socket from '../socket';
 
-
-
 function useDroneState() {
   const [droneState, updateDroneState] = useState({});
   useEffect(() => {
@@ -25,8 +23,7 @@ function useSocket() {
 const DroneStateStyles = styled.div`
   .status {
     text-align: center;
-  }
-`;
+  }`;
 
 const DroneState = () => {
   const status = useSocket();
