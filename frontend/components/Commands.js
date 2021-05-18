@@ -20,12 +20,10 @@ const CommandGrid = styled.div`
     }
     &.takeoff {
 			font-size: 1.5rem;
-			
       background: #41c7ff;
     }
     &.land {
 			font-size: 1.5rem;
-			
 			border-radius: 2px;
       // background: #00ff00;
     }
@@ -61,7 +59,6 @@ const CommandGrid = styled.div`
 
   h2 {
     grid-column: 1 / -1;
-    // background: #ffc600;
     margin: 0;
     font-size: 1.2rem;
     text-align: center;
@@ -118,11 +115,9 @@ const Commands = () => (
     <button onClick={sendCommand('flip l')}>Flip Left</button>
     <button onClick={sendCommand('flip f')}>Flip Forward</button>
     <button onClick={sendCommand('flip r')}>Flip Right</button>
-    <button onClick={sendCommand('go 25 25 25 25')}>Go 25 25 25 25</button>
+    <button onClick={sendCommand('command', 'battery?')}>reconnect</button>
     <button onClick={sendCommand('flip b')}>Flip Back</button>
-    <button onClick={sendCommand('curve 100 100 100 150 250 350 50')}>
-      Curve!
-    </button>
+    <button onClick={sendCommand('battery?')}>battery </button>
   </CommandGrid>
 );
 
