@@ -9,9 +9,9 @@ const GlobalStyle = createGlobalStyle`
     /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     font-family: 'Operator Mono', monospace;
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.9rem;
     background:#1C6CFD;
-    color: white;
+    // color: white;
   }
   * {
     font-family: 'impact', monospace;
