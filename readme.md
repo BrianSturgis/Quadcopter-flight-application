@@ -10,28 +10,9 @@ This application can take control of a small DJI Tello quadcopter allowing a use
 - This application has functionality not working such as the drones state parsed into the dom as well as its tilt view not connecting to art work to show the air crafts position.
 - The application currently only has basic controls and the six special moves at the bottom of the ui do not work.
 
-## Software Used
-- [VS Code](https://code.visualstudio.com/download)
-- Git & GitHub
-- ES6 JavaScript
-- JSX
-- React Framework v17.0
-- npm
-- node.js
-- next js
-- webpack v5.11.1
-- Babel
-- ESLint
-- node.js v15.8.0
-- Bootstrap v5.0.0
-- Adobe Photo Shop
-- Adobe XD
-* Wacom Cintiq
+## Component Diagram
+<img src="src/img/diagram.png" width="auto" height="auto" >
 
-## Hardware Used
-* [DJI Tello Drone](https://amzn.to/2SvzqON)
-* [Extra Batteries](https://amzn.to/2SyV70J)
-* [Fast Battery Charger with 4 slots](https://amzn.to/2SAWqwb)
 
 # Before Using This Application
 
@@ -82,6 +63,28 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 - May 17th
 - May 18th
 ```
+## Hardware Used
+* [DJI Tello Drone](https://amzn.to/2SvzqON)
+* [Extra Batteries](https://amzn.to/2SyV70J)
+* [Fast Battery Charger with 4 slots](https://amzn.to/2SAWqwb)
+  
+## Software Used
+- [VS Code](https://code.visualstudio.com/download)
+- Git & GitHub
+- ES6 JavaScript
+- JSX
+- React Framework v17.0
+- npm
+- node.js
+- next js
+- webpack v5.11.1
+- Babel
+- ESLint
+- node.js v15.8.0
+- Bootstrap v5.0.0
+- Adobe Photo Shop
+- Adobe XD
+* Wacom Cintiq
 
 ### License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
