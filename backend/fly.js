@@ -36,9 +36,7 @@ function handleError(err) {
 }
 
 const commands = ['command', 'battery?'];
-
 let i = 0;
-
 drone.send('command', 0, 'command'.length, PORT, HOST, handleError);
 
 async function go() {
@@ -62,7 +60,6 @@ io.on('connection', socket => {
     console.log(command);
     drone.send(command, 0, command.length, PORT, HOST, handleError);
   });
-
   socket.emit('status', '(socket only)');
 });
 
