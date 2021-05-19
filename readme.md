@@ -14,7 +14,7 @@ This application can take control of a small DJI Tello quadcopter allowing a use
 <img src="src/img/diagram.png" width="auto" height="auto" >
 
 
-# Before Using This Application
+## Before Using This Application
 
 ### `npm install`
 This app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
@@ -40,7 +40,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 
-# Using The Application
+## Using The Application
 ### Frontend (turns on controls and UI)
 1. cd `frontend`
 2. `npm install`
@@ -59,7 +59,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 - March 23rd received the aircraft and its kit and spent 3-4 hours updating it and flying it to see what its limitations and best conditions for flight were.
 - April 16th began drawing wire frames for application and built a look book doc of UI ideas i liked and periodically went back the doc over the month
 - May 7th built a few variations of the component diagram in Photo Shop.
-- May 14th
+- May 14th built A new project to establish the projects git profile as well as README.  Updated aircraft 
 - May 17th
 - May 18th
 ```
@@ -67,7 +67,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 * [DJI Tello Drone](https://amzn.to/2SvzqON)
 * [Extra Batteries](https://amzn.to/2SyV70J)
 * [Fast Battery Charger with 4 slots](https://amzn.to/2SAWqwb)
-  
+
 ## Software Used
 - [VS Code](https://code.visualstudio.com/download)
 - Git & GitHub
@@ -84,7 +84,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 - Bootstrap v5.0.0
 - Adobe Photo Shop
 - Adobe XD
-* Wacom Cintiq
+- Wacom Cintiq
 
 ### License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
