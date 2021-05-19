@@ -11,7 +11,6 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 900;
     font-size: 1.9rem;
     background:#1C6CFD;
-    // color: white;
   }
   * {
     font-family: 'impact', monospace;
