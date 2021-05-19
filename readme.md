@@ -50,7 +50,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-
 ## Using The Application
 ### Frontend (turns on controls and UI)
 1. cd `frontend`
@@ -78,13 +77,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 - JSX
 - React Framework v17.0
 - npm
-- node.js
+- node js
 - next js
 - webpack v5.11.1
-- Babel
-- ESLint
 - node.js v15.8.0
-- Bootstrap v5.0.0
 - Adobe Photo Shop
 - Adobe XD
 - Wacom Cintiq
