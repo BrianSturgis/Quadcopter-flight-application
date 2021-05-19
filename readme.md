@@ -60,7 +60,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 
 # Using The Application
-
 ### Frontend (turns on controls and UI)
 1. cd `frontend`
 2. `npm install`
