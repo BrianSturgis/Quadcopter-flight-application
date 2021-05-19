@@ -51,7 +51,6 @@ async function go() {
   }
   console.log('done!');
 }
-
 go();
 
 io.on('connection', socket => {

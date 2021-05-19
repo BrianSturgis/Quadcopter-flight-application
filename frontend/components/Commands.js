@@ -46,23 +46,23 @@ const CommandGrid = styled.div`
     }
   }
 
-  .center {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    button:last-child {
-      grid-column: span 2;
-    }
+.center {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  button:last-child {
+    grid-column: span 2;
   }
+}
 
-  h2 {
-    grid-column: 1 / -1;
-    margin: 0;
-    font-size: 1.2rem;
-    text-align: center;
-    padding: 2rem;
-    color: black;
-  }`;
+h2 {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2rem;
+  color: black;
+}`;
 
 function sendCommand(command) {
   return function() {
