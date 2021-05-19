@@ -13,6 +13,17 @@ This application can take control of a small DJI Tello quadcopter allowing a use
 ## Component Diagram
 <img src="src/img/diagram.png" width="auto" height="auto" >
 
+## Work Log
+```
+- March 14th researched drones and coding on the internet via numerous websites and you tube videos for 2-3 hours.
+- March 17th purchased the drone i decided to use as well as accessories for 1 hour.
+- March 23rd received the aircraft and its kit and spent 3-4 hours updating it and flying it to see what its limitations and best conditions for flight were.
+- April 16th began drawing wire frames for application and built a look book doc of UI ideas i liked and periodically went back the doc over the month
+- May 7th built a few variations of the component diagram in Photo Shop.
+- May 14th built A new project to establish the projects git profile as well as README.  Updated aircraft 
+- May 17th
+- May 18th
+```
 
 ## Before Using This Application
 
@@ -52,17 +63,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 3. Go to your systems wifi settings and look for a network named "TELLO" on your aircraft it may be set to an OEM network at name at first.
 4. `npm start`
 
-## Work Log
-```
-- March 14th researched drones and coding on the internet via numerous websites and you tube videos for 2-3 hours.
-- March 17th purchased the drone i decided to use as well as accessories for 1 hour.
-- March 23rd received the aircraft and its kit and spent 3-4 hours updating it and flying it to see what its limitations and best conditions for flight were.
-- April 16th began drawing wire frames for application and built a look book doc of UI ideas i liked and periodically went back the doc over the month
-- May 7th built a few variations of the component diagram in Photo Shop.
-- May 14th built A new project to establish the projects git profile as well as README.  Updated aircraft 
-- May 17th
-- May 18th
-```
+### aircraft manual
+[Tello manual](https://dl-cdn.ryzerobotics.com/downloads/Tello/20180404/Tello_User_Manual_V1.2_EN.pdf)
+
 ## Hardware Used
 * [DJI Tello Drone](https://amzn.to/2SvzqON)
 * [Extra Batteries](https://amzn.to/2SyV70J)
