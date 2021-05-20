@@ -3,6 +3,10 @@
 <p align="center"> Authored by Brian Sturgis</p>
 <p align="center">Project started on May 7th, 2021</p>
 
+## UI
+<img src="img/UI.png" width="auto" height="auto" >
+<img src="img/lookbook.png" width="auto" height="auto" >
+
 ## Description
 This application can take control of a small DJI Tello quadcopter allowing a user to give it basic flight commands.  It issues those commands via Node.js and the user interacts with the aircraft via a REACT front end.  The application is a capstone project for the the Epicodus full stack developer program finishing in the spring of 2021.  Its purpose is to demonstrate skills learned during the course as well as be a portfolio project.
 
@@ -11,18 +15,19 @@ This application can take control of a small DJI Tello quadcopter allowing a use
 - The application currently only has basic controls and the six special moves at the bottom of the ui do not work.
 
 ## Component Diagram
-<img src="src/img/diagram.png" width="auto" height="auto" >
+<img src="img/diagram.png" width="auto" height="auto" >
 
 ## Work Log
 ```
-- March 14th researched drones and coding on the internet via numerous websites and you tube videos for 2-3 hours.
-- March 17th purchased the drone i decided to use as well as accessories for 1 hour.
-- March 23rd received the aircraft and its kit and spent 3-4 hours updating it and flying it to see what its limitations and best conditions for flight were.
-- April 16th began drawing wire frames for application and built a look book doc of UI ideas i liked and periodically went back the doc over the month
+- March 14th researched drones and coding on the internet via numerous websites and you tube videos for.
+- March 17th purchased the drone I decided to use as well as accessories.
+- March 23rd received the aircraft and its kit and started updating it and flying it to see what its limitations and best conditions for flight were.
+- April 16th began drawing wire frames for application and built a look book doc of UI ideas I liked and periodically went back the doc over the month.
 - May 7th built a few variations of the component diagram in Photo Shop.
-- May 14th built A new project to establish the projects git profile as well as README.  Updated aircraft 
-- May 17th
-- May 18th
+- May 14th built A new project to establish the projects git profile as well as README,  Updated aircraft version, built go() function to test connectivity.
+- May 17th built the backend and placed the basic buttons into a UI.
+- May 18th worked with front end and added a "command" function as well as a battery state function.  Spent the afternoon making styling changes to UI.
+- May 19th spent the morning cleaning up the entire project and choosing images to add to the readme.  Spent the afternoon and night working on the presentation and updating the Discord channel.
 ```
 
 ## Before Using This Application
