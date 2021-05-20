@@ -94,7 +94,7 @@ const Commands = () => (
         Land
       </button>
       <button className="emergency" onClick={sendCommand('emergency')}>
-        <h2>OH SHIT</h2>
+        <h2>SHUT DOWN</h2>
       </button>
     </div>
     <button onClick={sendCommand(`right ${amount}`)}>
