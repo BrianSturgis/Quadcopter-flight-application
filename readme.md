@@ -13,8 +13,6 @@ This application can take control of a small DJI Tello quadcopter allowing a use
 - This application has functionality not working such as the drones state parsed into the dom as well as its tilt view not connecting to art work to show the air crafts position.
 - The application currently only has basic controls and the six special moves at the bottom of the ui do not work.
 
-## Component Diagram
-
 
 ## Work Log
 ```
@@ -68,6 +66,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### aircraft manual
 [Tello manual](https://dl-cdn.ryzerobotics.com/downloads/Tello/20180404/Tello_User_Manual_V1.2_EN.pdf)
+
+[Tello SDK Manual](https://dl-cdn.ryzerobotics.com/downloads/tello/20180910/Tello%20SDK%20Documentation%20EN_1.3.pdf)
 
 ## Hardware Used
 * [DJI Tello Drone](https://amzn.to/2SvzqON)
