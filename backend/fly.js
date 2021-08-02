@@ -39,7 +39,7 @@ const commands = ['command', 'battery?'];
 let i = 0;
 drone.send('command', 0, 'command'.length, PORT, HOST, handleError);
 
-async function go() {
+async function start() {
   const command = commands[i];
   const delay = commandDelays[command];
   console.log(`running command: ${command}`);
@@ -47,11 +47,11 @@ async function go() {
   await wait(delay);
   i += 1;
   if (i < commands.length) {
-    return go();
+    return start();
   }
   console.log('done!');
 }
-go();
+start();
 
 io.on('connection', socket => {
   socket.on('command', command => {

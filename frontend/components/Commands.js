@@ -71,7 +71,7 @@ function sendCommand(command) {
   };
 }
 
-const amount = 75;
+const amount = 100;
 const Commands = () => (
   <CommandGrid>
     <button className="rotate" onClick={sendCommand('ccw 90')}>
